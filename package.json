@@ -1,0 +1,20 @@
+{
+  "name": "blogapptailwind_mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAslan8006/BlogAppTailwind_Mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAslan8006/BlogAppTailwind_Mern/issues"
+  },
+  "homepage": "https://github.com/SAslan8006/BlogAppTailwind_Mern#readme"
+}
