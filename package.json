@@ -1,5 +1,5 @@
 {
-  "name": "blogapptailwind_mern",
+  "name": "backend-blog-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,27 +7,16 @@
     "start": "node -r esm server.js",
     "dev": "nodemon -r esm server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SAslan8006/BlogAppTailwind_Mern.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SAslan8006/BlogAppTailwind_Mern/issues"
-  },
-  "homepage": "https://github.com/SAslan8006/BlogAppTailwind_Mern#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "colors": "^1.4.0",
-    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "esm": "^3.2.25",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.3",
-    "morgan": "^1.10.0",
+    "mongoose": "^6.9.2",
     "multer": "^1.4.5-lts.1",
     "uuid": "^9.0.0"
   }

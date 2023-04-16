@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose';
+import { Schema, model } from "mongoose";
 
 const PostSchema = new Schema(
   {
@@ -7,18 +7,18 @@ const PostSchema = new Schema(
     slug: { type: String, required: true, unique: true },
     body: { type: Object, required: true },
     photo: { type: String, required: false },
-    user: { type: Schema.Types.ObjectId, ref: 'User' },
+    user: { type: Schema.Types.ObjectId, ref: "User" },
     tags: { type: [String] },
-    categories: [{ type: Schema.Types.ObjectId, ref: 'PostCategories' }],
+    categories: [{ type: Schema.Types.ObjectId, ref: "PostCategories" }],
   },
   { timestamps: true }
 );
 
-PostSchema.virtual('comments', {
-  ref: 'Comment',
-  localField: '_id',
-  foreignField: 'postId',
+PostSchema.virtual("comments", {
+  ref: "Comment",
+  localField: "_id",
+  foreignField: "postId",
 });
 
-const Post = model('Post', PostSchema);
+const Post = model("Post", PostSchema);
 export default Post;
