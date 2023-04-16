@@ -56,8 +56,8 @@ export const getCommentsData = async () => {
       },
       desc: "I'm always interested in your content :)",
       post: "1",
-      parent: null,
-      replyOnUser: null,
+      parent: "13",
+      replyOnUser: "c",
       createdAt: "2022-12-31T17:22:05.092+0000",
     },
   ];
