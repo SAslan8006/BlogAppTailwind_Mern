@@ -48,5 +48,17 @@ export const getCommentsData = async () => {
       replyOnUser: null,
       createdAt: "2022-12-31T17:22:05.092+0000",
     },
+    {
+      _id: "14",
+      user: {
+        _id: "d",
+        name: "Süleyman Aslan",
+      },
+      desc: "I'm always interested in your content :)",
+      post: "1",
+      parent: null,
+      replyOnUser: null,
+      createdAt: "2022-12-31T17:22:05.092+0000",
+    },
   ];
 };
